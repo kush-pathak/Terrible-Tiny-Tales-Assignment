@@ -1,0 +1,73 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: rgb(169, 182, 121);
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+button {
+  background-color: #1271e570;
+  border: 4px solid black;
+  color: rgb(125 34 34);
+  border-radius: 42px;
+  font-size: 100px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+svg {
+  background-color: #8ddfe2;
+  border-radius: 20px;
+}
+
+rect {
+  fill: #110629;
+  transition: all 0.3s ease-in-out;
+}
+
+rect:hover {
+  fill: #f44336;
+}
+
+.x-axis line,
+.y-axis line {
+  stroke: #999;
+  stroke-dasharray: 2 2;
+}
+
+.x-axis path,
+.y-axis path {
+  display: none;
+}
+
+.x-axis text {
+  font-size: 12px;
+  fill: #999;
+  text-anchor: end;
+}
+
+.y-axis text {
+  font-size: 12px;
+  fill: #999;
+  text-anchor: end;
+}
+
+
+
+.bars text {
+  font-size: 14px;
+  font-weight: bold;
+  fill: #884029;
+}
+
+.bars text span {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+
+
